@@ -1,0 +1,77 @@
+/* Resetear estilos para mayor consistencia en diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #33AFFF;
+    margin: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #33AFFF;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 100px; /* La imagen no excederá el ancho del contenedor */
+    height: 100px; /* Mantiene la proporción de aspecto de la imagen */
+}
+/* Estilo de la imagen específica en la sección de inicio */
+.Croche {
+    max-width: 100px;
+    height: 100px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color:#33AFFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
