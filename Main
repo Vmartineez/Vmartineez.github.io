@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Resetear estilos para mayor consistencia en diferentes navegadores */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos generales de la página */
+        body {
+            font-family: Arial, 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Centra el contenido verticalmente en la página */
+        }
+
+        /* Estilos del cuadro de contenido */
+        #contenido {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%; /* Ajusta el ancho según tus necesidades */
+        }
+
+        /* Estilos del encabezado */
+        header {
+            background-color: #33AFFF;
+            color: #fff;
+            padding: 10px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Estilos del contenido principal */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        /* Estilo de las imágenes */
+        img {
+            max-width: 100px; /* La imagen no excederá el ancho del contenedor */
+            height: 100px; /* Mantiene la proporción de aspecto de la imagen */
+        }
+
+        /* Estilo de la imagen específica en la sección de inicio */
+        .Croche {
+            max-width: 100px;
+            height: 100px;
+        }
+
+        /* Estilos del pie de página */
+        footer {
+            background-color: #33AFFF;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilos de enlaces */
+        a {
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenido">
+        <!-- Tu contenido HTML existente aquí -->
+
+        <!-- Encabezado de la página -->
+        <header>
+            <h1>Mis Hobbies</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Crochet">Crochet</a></li>
+                    <li><a href="#Harry Potter">HarryPotter</a></li>
+                    <li><a href="#Lectura">Lectura</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!-- Contenido principal -->
+    <main>
+        <section id="Crochet">
+            <h2>Crochet</h2>
+            <p> El ganchillo, croché (galicismo de crochet) o tejido de gancho es una técnica para tejer labores con hilo o lana que utiliza una aguja corta y específica, «aguja de ganchillo» o «aguja de croché» de metal, plástico o madera.
+                Esta labor, similar al tricotado, consiste en pasar un anillo de hilo por encima de otro, aunque a diferencia de este, se trabaja solamente con uno de los anillos cada vez.
+                También se denomina ganchillo a las piezas «tejidas» o realizados mediante esta técnica, como pueden ser: colchas, puntillas, centros de mesa, prendas de vestir, etc.
+                <center> <img class= "Croche" src="1.jpg" alt="Croche" width="250px" ></center>
+            </p>
+        </section>
+
+        <section id="Harry Potter">
+            <h2>Harry Potter</h2>
+            <p>Harry Potter es una serie de novelas fantásticas escrita por la autora británica J. K. Rowling, en la que se describen las aventuras del joven aprendiz de magia y hechicería Harry Potter y sus amigos Hermione Granger y Ron 
+                Weasley, durante los años que pasan en el Colegio Hogwarts de Magia y Hechicería. El argumento se centra en la lucha entre Harry Potter y el malvado mago lord Voldemort, quien asesinó a los padres de Harry en su afán de conquistar el mundo mágico.
+                
+                <center><img class="HarryPotter" src="2.png" alt="HarryPotter" width="250px"></center>
+            </p>
+        </section>
+
+        <section id="Lectura">
+            <h2>Lectura</h2>
+            <ul>
+                <li>Akelarre - Mario Mendoza</li>
+                <p>
+                    Al investigador privado Frank Molina, borracho, marihuanero y paciente psiquiátrico, lo alcanza su pasado con una cuenta de cobro cuando la policía lo llama para que los asesore con unos extraños asesinatos que tuvieron lugar en el barrio Santa Fe. Un imitador de Jack el Destripador está inmerso en una auténtica orgía de sangre y mata prostitutas sin contemplación. Mientras Molina sigue pistas de un extremo a otro de la capital para dar con el criminal, sus pasos se cruzan con los de su mentor, un sacerdote atormentado por los secretos que esconde de su juventud. Y al fondo de este cuadro gótico de la ciudad contemporánea, una joven pintora descubre que no es una artista, sino una hechicera que atesora poderes ancestrales.
+                    
+                    <center><img class= "Akelarre" src="3.jpg" alt="Akelarre" width="250px"></center>
+                </p>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+</html>
